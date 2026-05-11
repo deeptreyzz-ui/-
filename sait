@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-Обучение: Стань профи</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; line-height: 1.6; color: #333; }
+        header { background: #2c3e50; color: white; padding: 2rem; text-align: center; }
+        .container { padding: 20px; max-width: 800px; margin: auto; }
+        .course-card { border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .price { font-size: 1.5rem; color: #27ae60; font-weight: bold; }
+        .btn { display: inline-block; background: #e67e22; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        footer { text-align: center; padding: 20px; background: #f4f4f4; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Академия Кода</h1>
+        <p>Научим программировать с нуля до оффера</p>
+    </header>
+    <div class="container">
+        <div class="course-card">
+            <h2>Python для начинающих</h2>
+            <p>Основы языка, работа с данными и создание первого бота.</p>
+            <div class="price">4 900 ₽</div>
+            <a href="#" class="btn">Купить курс</a>
+        </div>
+        <div class="course-card">
+            <h2>Frontend-разработчик</h2>
+            <p>Верстка сайтов на HTML/CSS и магия JavaScript.</p>
+            <div class="price">6 500 ₽</div>
+            <a href="#" class="btn">Записаться</a>
+        </div>
+    </div>
+    <footer>
+        &copy; 2026 IT-Обучение. Все права защищены.
+    </footer>
+</body>
+</html>
